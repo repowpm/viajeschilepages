@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="viajes.svg"
+      type="image/svg+xml"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Caveat&family=Playfair+Display&family=Vollkorn&display=swap"
+      rel="stylesheet"
+    />
+    <title>Viajes Chile</title>
+  </head>
+  <body>
+    <header class="fixed-top">
+      <nav
+        class="navbar navbar-expand-sm navbar-light justify-content-center px-5 py-0"
+      >
+        <div class="navbar_altura py-3">
+          <a
+            class="navbar-brand fw-bold"
+            href="./index.html"
+            title="Logo Viajes Chile"
+            ><img src="viajes.svg" alt="Logo Viajes Chile" />
+            Viajes Chile</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse mt-sm-0" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-sm-center pb-3 pb-sm-0">
+            <li class="nav-item text-center estilo_menu">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="#principal"
+                title="ir a Pagina Inicio"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item text-center">
+              <a
+                class="nav-link"
+                href="#quienes_somos"
+                title="Ir a Quienes Somos"
+                >Quienes Somos</a
+              >
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="#destacados" title="Ir a Destacados"
+                >Destacados</a
+              >
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="#contacto" title="Ir a Contacto"
+                >Contacto</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="principal" class="hero-section">
+        <div
+          id="carouselHeroSection"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <div
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Ir a slider 1 "
+              data-bs-target="#carouselHeroSection"
+              data-bs-slide-to="0"
+              class="active bullet1 bullet"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></div>
+            <div
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Ir a slider 2"
+              data-bs-target="#carouselHeroSection"
+              data-bs-slide-to="1"
+              class="bullet2 bullet"
+              aria-label="Slide 2"
+            ></div>
+            <div
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Ir a slider 3"
+              data-bs-target="#carouselHeroSection"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+              class="bullet3 bullet"
+            ></div>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item carousel-item1 active">
+              <div class="background_slider background_slider1"></div>
+              <div class="carousel-item_contenedor carousel-item_contenedor1">
+                <h2 class="carousel-item_titulo1 mb-3">
+                  Ofertas imperdibles para estas vacaciones
+                </h2>
+                <div
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Haz Click aquí para ver más detalle 🔎"
+                >
+                  <button type="button" class="btn btn-success">
+                    <span
+                      >Ver más detalles
+                      <img
+                        src="icons8-cara-de-fiesta-48.png"
+                        alt="Imagen Celebracion"
+                        srcset=""
+                    /></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item carousel-item2">
+              <div class="background_slider background_slider2"></div>
+              <div class="carousel-item_contenedor carousel-item_contenedor2">
+                <h2 class="carousel-item_titulo2">
+                  Destinos ideales para disfrutar en familia
+                </h2>
+                <div
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Haz Click aquí para ver más detalle 🔎"
+                >
+                  <button type="button" class="btn btn-warning">
+                    <span
+                      >Ver más detalles
+                      <img
+                        src="icons8-meditar.png"
+                        alt="Imagen Meditar"
+                        srcset=""
+                    /></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item carousel-item3">
+              <div class="background_slider background_slider3"></div>
+              <div class="carousel-item_contenedor carousel-item_contenedor3">
+                <h2 class="carousel-item_titulo3">
+                  Destinos perfectos para aventureros
+                </h2>
+                <div
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Haz Click aquí para ver más detalle 🔎"
+                >
+                  <button type="button" class="btn btn-light">
+                    <span
+                      >Ver más detalles
+                      <img
+                        src="icons8-mundo.png"
+                        alt="Imagen Mundo"
+                        srcset=""
+                    /></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselHeroSection"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon"
+              aria-hidden="true"
+              data-bs-toggle="tooltip"
+              data-bs-placement="right"
+              title="Ir atrás"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselHeroSection"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon"
+              aria-hidden="true"
+              data-bs-toggle="tooltip"
+              data-bs-placement="left"
+              title="Ir adelante"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section id="quienes_somos" class="quienes_somos px-3 px-md-5 py-3">
+        <h2 class="quienes_somos_titulo text-center fw-bold mb-3">
+          ¿Quienes Somos?
+        </h2>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                ¿Quienes conforman la agencia?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                La agencia la conforma
+                <span><strong>Walter Paredes Moraga</strong></span>
+                a la cabeza en todos los aspectos que involucren dirección y
+                gestión. Junto con un grupo de especialistas en diversas áreas
+                de nivel más particular.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                ¿Desde cuándo operamos?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Nuestras operaciones comenzaron en el año <strong>2024</strong> de
+                manera local y orientada a un perfil especial de clientes.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                ¿Cuál es el valor agregado de nuestra agencia de viajes?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Nos enfocamos en entregar paquetes de viaje focalizados en
+                personas que quieran conocer nuevas realidades y nuevas
+                experiencias.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row quienes_somos_contenedor_parrafos mt-3 mx-0 justify-content-between"
+        >
+          <div class="columna col-12 col-sm-4 px-0">
+            <div class="quienes_somos_contenedor_parrafos_icono">
+              <i class="fa-solid fa-plane my-3"></i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+              mollitia incidunt magni enim quisquam saepe accusamus dicta
+              facilis quae neque!
+            </p>
+          </div>
+          <div
+            class="columna col-12 col-sm-4 px-0 quienes_somos_contenedor_parrafos--parrafo2"
+          >
+            <div class="quienes_somos_contenedor_parrafos_icono">
+              <i class="fa-solid fa-globe my-3"></i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+              mollitia incidunt magni enim quisquam saepe accusamus dicta
+              facilis quae neque!
+            </p>
+          </div>
+          <div class="columna col-12 col-sm-4 px-0">
+            <div class="quienes_somos_contenedor_parrafos_icono">
+              <i class="fa-solid fa-book my-3"></i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+              mollitia incidunt magni enim quisquam saepe accusamus dicta
+              facilis quae neque!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="destacados" class="destacados py-3 px-3 px-md-5">
+        <h2 class="destacados_titulo text-center fw-bold mb-3">Destacados</h2>
+        <div class="row gy-3">
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="card">
+              <img
+                src="card1.webp"
+                class="card-img-top"
+                alt="Imagen 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Destino 1</h5>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur, blanditiis! Libero voluptate at eligendi
+                  reiciendis.
+                </p>
+                <span
+                  class="badge rounded-pill bg-success"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Haz click aquí para mayor información"
+                  >Más info <i class="fa-solid fa-circle-plus"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="card">
+              <img
+                src="card2.webp"
+                class="card-img-top"
+                alt="Imagen 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Destino 2</h5>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur, blanditiis! Libero voluptate at eligendi
+                  reiciendis.
+                </p>
+                <span
+                  class="badge rounded-pill bg-success"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Haz click aquí para mayor información"
+                  >Más info <i class="fa-solid fa-circle-plus"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="card">
+              <img
+                src="card3.webp"
+                class="card-img-top"
+                alt="Imagen 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Destino 3</h5>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur, blanditiis! Libero voluptate at eligendi
+                  reiciendis.
+                </p>
+                <span
+                  class="badge rounded-pill bg-success"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Haz click aquí para mayor información"
+                  >Más info <i class="fa-solid fa-circle-plus"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="card">
+              <img
+                src="card4.webp"
+                class="card-img-top"
+                alt="Imagen 4"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Destino 4</h5>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur, blanditiis! Libero voluptate at eligendi
+                  reiciendis.
+                </p>
+                <span
+                  class="badge rounded-pill bg-success"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Haz click aquí para mayor información"
+                  >Más info <i class="fa-solid fa-circle-plus"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contacto" class="contacto py-3 px-3 px-md-5 text-center">
+        <h2 class="contacto_titulo fw-bold mb-3">Contacto</h2>
+        <form class="p-3 mx-auto">
+          <div class="mb-3">
+            <label for="inputName" class="form-label">Nombre</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputName"
+              aria-describedby="nameHelp"
+              placeholder="Escribe aquí tu nombre"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="inputAsunto" class="form-label">Asunto</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAsunto"
+              aria-describedby="asuntoHelp"
+              placeholder="Escribe aquí el asunto del mensaje"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="mensajeArea" class="form-label">Mensaje</label>
+            <textarea
+              class="form-control"
+              id="mensajeArea"
+              rows="5"
+              placeholder="Escribe aquí el mensaje"
+              required
+            ></textarea>
+          </div>
+
+          <button
+            type="submit"
+            class="btn boton_submit_formulario fw-bold"
+            data-bs-toggle="tooltip"
+            data-bs-placement="bottom"
+            title="Haz click aqui para enviar la data"
+          >
+            Enviar Mensaje
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer class="py-3 px-3 px-md-5">
+      <div class="row">
+        <div class="col-12 col-sm-6">
+          <a
+            class="footer-brand d-block fw-bold text-center"
+            href="./index.html"
+            ><img src="viajes.svg" alt="Logo Viajes Chile" />
+            Viajes Chile</a
+          >
+        </div>
+        <div class="col-12 col-sm-6">
+          <p class="text-center">
+            Sitio Web desarrollado por
+            <span
+              class="tooltip_nombre"
+              data-bs-placement="bottom"
+              title="Haz click para mostrar un popover ✅"
+            >
+              <span
+                class="autor fw-bold popovernombre"
+                title="Autor de la Página Web"
+                data-bs-content="Entusiasta de la programación y la seguridad informatica"
+                >Walter Paredes Moraga 🚀</span
+              ></span
+            >
+          </p>
+          <div class="d-flex justify-content-around">
+            <a
+              href="https://github.com/repowpm"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fa-brands fa-square-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-square-instagram"></i
+            ></a>
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-square-facebook"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <button id="scrollBtn" onclick="scrollToTop()" title="Ir a Inicio">
+        <i class="fa fa-chevron-circle-up"></i>
+      </button>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/d1b9dc6536.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
